@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhashabridge Consultants | Professional Translation & Language Services</title>
+
+<meta name="description" content="Bhashabridge Consultants provides professional French–English and Japanese–English translation services and French language classes for international clients.">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* ---------- HOME PAGE SPECIFIC ---------- */
+
+.hero {
+  background: linear-gradient(120deg,#f8fafc,#eef2ff);
+  padding: 90px 48px;
+}
+
+.hero-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.section {
+  padding: 90px 48px;
+}
+
+.section.alt {
+  background: #f5f7fb;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.section p.lead {
+  text-align: center;
+  color: #6b7280;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 28px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 26px;
+}
+
+.step {
+  background: #fff;
+  border-radius: 14px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.05);
+}
+
+.cta-strip {
+  background: #0b5ed7;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-strip h2 {
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-grid, .two-col {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="nav-container">
+    <div class="logo">Bhashabridge Consultants</div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <nav id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="french-classes.html">French Classes</a>
+      <a href="agency.html">Agency</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- 1️⃣ HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <h1>Professional Translation & Language Services</h1>
+      <p>
+        Accurate, confidential and culturally precise French–English and Japanese–English
+        language solutions for international clients.
+      </p>
+
+      <a class="btn primary"
+         href="https://wa.me/919258577903?text=Hello%20I%20need%20a%20translation%20quote"
+         target="_blank">
+         Request a Quote
+      </a>
+
+      <a class="btn secondary" href="contact.html">Contact Us</a>
+    </div>
+
+    <img src="assets/images/hero-abstract.jpg" alt="Global language communication">
+  </div>
+</section>
+
+<!-- 2️⃣ LANGUAGE SPECIALIZATION -->
+<section class="section">
+  <div class="container">
+    <h2>Language Specialization</h2>
+    <p class="lead">
+      We focus on accuracy, clarity, and cultural relevance across key global languages.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <img src="assets/images/language-french-english.jpg">
+        <h3>French ↔ English</h3>
+        <p>Professional translation for academic, personal, and business needs.</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/language-japanese-english.jpg">
+        <h3>Japanese ↔ English</h3>
+        <p>High-precision translation for technical and professional content.</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/international-clients.jpg">
+        <h3>International Clients</h3>
+        <p>Serving individuals and organizations worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3️⃣ SERVICES SNAPSHOT -->
+<section class="section alt">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="lead">
+      Clear separation between individual language services and agency-level solutions.
+    </p>
+
+    <div class="two-col">
+      <div class="card">
+        <h3>Individual Services</h3>
+        <ul>
+          <li>Personal document translation</li>
+          <li>Academic translation</li>
+          <li>French & Japanese language support</li>
+          <li>French classes (A1–A2)</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Agency Services</h3>
+        <ul>
+          <li>Corporate translation</li>
+          <li>Legal & technical documents</li>
+          <li>Bulk & long-term projects</li>
+          <li>NDA-based confidentiality</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4️⃣ WHY BHASHABRIDGE -->
+<section class="section">
+  <div class="container">
+    <h2>Why Bhashabridge Consultants</h2>
+
+    <div class="cards">
+      <div class="card">Accuracy-focused translation</div>
+      <div class="card">Strict confidentiality</div>
+      <div class="card">International quality standards</div>
+      <div class="card">Reliable delivery timelines</div>
+    </div>
+  </div>
+</section>
+
+<!-- 5️⃣ PROCESS FLOW -->
+<section class="section alt">
+  <div class="container">
+    <h2>Our Translation Process</h2>
+
+    <div class="process">
+      <div class="step">Submit Requirements</div>
+      <div class="step">Review & Scope</div>
+      <div class="step">Translate & Quality Check</div>
+      <div class="step">Secure Delivery</div>
+    </div>
+  </div>
+</section>
+
+<!-- 6️⃣ CTA STRIP -->
+<section class="cta-strip">
+  <h2>Need Professional Translation Services?</h2>
+  <a class="btn secondary" href="contact.html">Contact Bhashabridge Consultants</a>
+</section>
+
+<footer>
+  <p><strong>Bhashabridge Consultants</strong> – Language That Connects</p>
+  <p>Email: bhashabridgeagra@gmail.com | Phone: +91 9258577903 | +91 7983740778</p>
+  <p>
+    <a href="https://www.instagram.com/bhashabridgeagra?utm_source=qr&igsh=bnZ4cXh4YWt0bzZ0"
+   target="_blank"
+   class="social-icon">
+  <img src="assets/images/instagram-icon.png" alt="Instagram">
+</a>
+
+  </p>
+  <p>© Bhashabridge Consultants</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("mobileNav").classList.toggle("show");
+}
+</script>
+<a class="whatsapp-float"
+   href="https://wa.me/919258577903"
+   target="_blank">
+  <img src="assets/images/whatsapp-icon.png" alt="WhatsApp">
+</a>
+
+
+</body>
+</html>
+
