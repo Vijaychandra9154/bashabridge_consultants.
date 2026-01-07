@@ -1,230 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Translation Services | Bhashabridge Consultants</title>
-<meta name="description" content="Professional French–English and Japanese–English translation services for individuals and organizations.">
-
-<link rel="stylesheet" href="style.css">
-
-<style>
-/* ---------- SERVICES PAGE SPECIFIC ---------- */
-
-.hero {
-  background: linear-gradient(120deg,#f8fafc,#eef2ff);
-  padding: 80px 48px;
-}
-
-.hero-grid {
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-}
-
-.section {
-  padding: 90px 48px;
-}
-
-.section.alt {
-  background: #f5f7fb;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.section h2 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 16px;
-}
-
-.section p.lead {
-  text-align: center;
-  color: #6b7280;
-  max-width: 700px;
-  margin: 0 auto 50px;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-  gap: 28px;
-}
-
-.card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 32px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-}
-
-.card img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 18px;
-}
-
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-}
-
-@media (max-width: 768px) {
-  .two-col {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Professional Translation Services | Bhashabridge</title>
+  <meta name="description" content="French-English and Japanese-English translation services for individuals and businesses.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
 <header class="site-header">
   <div class="nav-container">
     <div class="logo">Bhashabridge Consultants</div>
-
     <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-    <nav id="mobileNav">
+    <nav>
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
-      <a href="french-classes.html">French Classes</a>
       <a href="agency.html">Agency</a>
+      <a href="french-classes.html">French Classes</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
 
-
-<!-- HERO -->
 <section class="hero">
-  <div class="hero-grid">
-    <h1>Our Translation Services</h1>
-    <p>
-      Professional language solutions designed for individuals, professionals,
-      and organizations operating across borders.
-    </p>
-  </div>
+  <h1>Our Services</h1>
+  <p>Clear separation between individual language services and agency-level solutions.</p>
 </section>
 
-<!-- INDIVIDUAL SERVICES -->
 <section class="section">
-  <div class="container">
-    <h2>Individual Language Services</h2>
-    <p class="lead">
-      Reliable translation and language support for personal, academic, and
-      professional needs.
-    </p>
-
-    <div class="cards">
-      <div class="card">
-        <img src="assets/images/individual-services.jpg" alt="Individual translation services">
-        <h3>French ↔ English Translation</h3>
-        <p>
-          Accurate translation of personal documents, academic content,
-          and professional communication.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Japanese ↔ English Translation</h3>
-        <p>
-          High-precision translation for technical, professional,
-          and business-related materials.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>French Language Classes (A1–A2)</h3>
-        <p>
-          Structured online French classes for beginners and elementary learners,
-          focused on practical communication.
-        </p>
-        <a class="btn secondary" href="french-classes.html">View Course Details</a>
-      </div>
-    </div>
-  </div>
+  <img src="assets/images/card-1.jpg" alt="Personal translation services" loading="lazy">
+  <h2>Individual Services</h2>
+  <ul>
+    <li>Personal document translation</li>
+    <li>Academic transcripts & certificates</li>
+    <li>French & Japanese language support</li>
+    <li>French classes (A1–A2)</li>
+  </ul>
 </section>
 
-<!-- AGENCY SERVICES -->
 <section class="section alt">
-  <div class="container">
-    <h2>Agency & Corporate Services</h2>
-    <p class="lead">
-      Professional translation services for companies, institutions,
-      and long-term projects.
-    </p>
-
-    <div class="two-col">
-      <div class="card">
-        <img src="assets/images/agency-services.jpg" alt="Corporate translation services">
-        <h3>Corporate & Business Translation</h3>
-        <ul>
-          <li>Business documents & reports</li>
-          <li>Legal & technical materials</li>
-          <li>Marketing & professional content</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Confidential & Long-Term Projects</h3>
-        <ul>
-          <li>NDA-based confidentiality</li>
-          <li>Bulk document handling</li>
-          <li>Dedicated project coordination</li>
-          <li>International quality standards</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <img src="assets/images/card-2.jpg" alt="Corporate translation services" loading="lazy">
+  <h2>Agency Services</h2>
+  <ul>
+    <li>Corporate translation</li>
+    <li>Legal & technical documents</li>
+    <li>Bulk & long-term projects</li>
+    <li>NDA-based confidentiality</li>
+  </ul>
 </section>
 
-<!-- CTA -->
-<section class="section">
-  <div class="container" style="text-align:center">
-    <h2>Need a Customized Translation Solution?</h2>
-    <a class="btn primary"
-       href="https://wa.me/919258577903?text=Hello%20I%20need%20a%20translation%20quote"
-       target="_blank">
-       Request a Quote
-    </a>
-    <a class="btn secondary" href="contact.html">Contact Us</a>
-  </div>
+<section class="cta">
+  <h2>Need a Customized Translation Solution?</h2>
+  <a href="contact.html?type=quote" class="btn primary">Request a Quote</a>
+  <a href="contact.html" class="btn secondary">Contact Us</a>
 </section>
 
 <footer>
-  <p><strong>Bhashabridge Consultants</strong> – Language That Connects</p>
-  <p>Email: bhashabridgeagra@gmail.com | Phone: +91 9258577903 | +91 7983740778</p>
-  <p>
-    <a href="https://www.instagram.com/bhashabridgeagra?utm_source=qr&igsh=bnZ4cXh4YWt0bzZ0"
-   target="_blank"
-   class="social-icon">
-  <img src="assets/images/instagram-icon.png" alt="Instagram">
-</a>
-
-  </p>
-  <p>© Bhashabridge Consultants</p>
+  <p><strong>Bhashabridge Consultants</strong></p>
+  <p>Email: bhashabridgeagra@gmail.com | Phone: +91 9258577903</p>
+  <a href="https://www.instagram.com/bhashabridgeagra" target="_blank" class="social-icon">
+    <img src="assets/images/instagram.png" alt="Instagram">
+  </a>
 </footer>
 
-<script>
-function toggleMenu() {
-  document.getElementById("mobileNav").classList.toggle("show");
-}
-</script>
-<a class="whatsapp-float"
-   href="https://wa.me/919258577903"
-   target="_blank">
-  <img src="assets/images/whatsapp-icon.png" alt="WhatsApp">
-</a>
+<script src="js/nav.js"></script>
 
+<a href="https://wa.me/919258577903" class="whatsapp-float">
+  <img src="assets/images/whatsapp.png" alt="WhatsApp">
+</a>
 
 </body>
 </html>
+
